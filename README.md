@@ -1,4 +1,3 @@
-"# findertal.test.spring"
 Endpoint pour authentification:
 curl -X POST -H 'Content-type: application/json' -d '{"username": "admin","password": "admin"}' http://localhost:8080/api/authenticate
 
