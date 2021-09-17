@@ -5,7 +5,7 @@ Endpoint pour avoir la liste des voitures sans commentaires:
 curl -X GET http://localhost:8080/api/cars
 
 Endpoint pour avoir les commentaires d'une voiture, authentification requise:
-curl -X GET -H 'Authorization: Bearer {token}' http://localhost/api/car/{carId}/comments
+curl -X GET -H 'Authorization: Bearer {token}' http://localhost:8080/api/car/{carId}/comments
 
 Endpoint pour ajouter un commentaire à une voiture:
-curl -X POST -H 'Authorization: Bearer {token}' http://localhost/api/car/{carId}/comment
+curl -X POST -H 'Authorization: Bearer {token}' http://localhost:8080/api/car/{carId}/comment
